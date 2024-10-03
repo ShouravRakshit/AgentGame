@@ -1,0 +1,309 @@
+3536
+{
+  "settings": {
+    "world_info": {
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "seed": 9014,
+      "world_file_levels": {
+        "high": 14,
+        "mid": 6,
+        "low": 3
+      },
+      "agent_energy": 500
+    }
+  },
+  "spawn_locs": [
+    {
+      "x": 2,
+      "y": 0
+    }
+  ],
+  "grid_types": {
+    "fire_grids": [],
+    "killer_grids": [],
+    "charging_grids": []
+  },
+  "stacks": [
+    {
+      "grid_loc": {
+        "x": 0,
+        "y": 0
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 0,
+        "y": 1
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 0,
+        "y": 2
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 0,
+        "y": 3
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 0,
+        "y": 4
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 1,
+        "y": 0
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 1,
+        "y": 1
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 1,
+        "y": 2
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 1,
+        "y": 3
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 1,
+        "y": 4
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 2,
+        "y": 0
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 2,
+        "y": 1
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 2,
+        "y": 2
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 2,
+        "y": 3
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 2,
+        "y": 4
+      },
+      "move_cost": 1,
+      "contents": [
+        {
+          "type": "sv",
+          "arguments": {
+            "energy_level": 0,
+            "body_mass": 0,
+            "mental_state": 0,
+            "damage_factor": 0
+          }
+        }
+      ]
+    },
+    {
+      "grid_loc": {
+        "x": 3,
+        "y": 0
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 3,
+        "y": 1
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 3,
+        "y": 2
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 3,
+        "y": 3
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 3,
+        "y": 4
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 4,
+        "y": 0
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 4,
+        "y": 1
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 4,
+        "y": 2
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 4,
+        "y": 3
+      },
+      "move_cost": 1,
+      "contents": []
+    },
+    {
+      "grid_loc": {
+        "x": 4,
+        "y": 4
+      },
+      "move_cost": 1,
+      "contents": []
+    }
+  ]
+}
+System Run date: 2024-10-03 00:28:13.509042
+ADD_AGT; Info(ID 1, GID 1, Eng 500):Loc(X 2, Y 0);
+#
+World File Used : worlds/ExampleWorld.world;
+Simulation Start: Number of Rounds 10;
+RS;1;
+Agent_Cmds;{[(1, 1)#Move CENTER]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { NONE };
+Agents_Information; { (1,1,499,2,0), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+RS;2;
+Agent_Cmds;{[(1, 1)#Move NORTH]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { NONE };
+Agents_Information; { (1,1,498,2,1), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+RS;3;
+Agent_Cmds;{[(1, 1)#Move NORTH]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { NONE };
+Agents_Information; { (1,1,497,2,2), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+RS;4;
+Agent_Cmds;{[(1, 1)#Move NORTH]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { NONE };
+Agents_Information; { (1,1,496,2,3), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+RS;5;
+Agent_Cmds;{[(1, 1)#Move NORTH]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { NONE };
+Agents_Information; { (1,1,495,2,4), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+RS;6;
+Agent_Cmds;{[(1, 1)#Save SV]}
+Sim_Events;
+SV; { NONE };
+SVG; { NONE };
+Top_Layer_Rem; { ( 2, 4 ), };
+Agents_Information; { (1,1,494,2,4), };
+End_Sim;
+Dead_Agents; {  };
+RE;
+MSG;All Survivors Saved !!;
+MSG;System Run ended on: 2024-10-03 00:28:19.469217
+MSG;Kernel Shutting Down;
